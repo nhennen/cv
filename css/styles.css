@@ -1,20 +1,109 @@
-body {
-    background-color: #EEE9DA;
+/************************/
+/**** HTML Elements *****/
+/************************/
+a {
+    color: #6096B4;
+    text-decoration: none;
+    border-color: #6096B4;
 }
 
-hr {
-    border-style: dotted none none none;
-    border-color: #BDCDD6;
-    border-width: 5px;
-    width: 5%;
+a:hover {
+    color: #93BFCF;
+    text-decoration: none;
+    border-color: #93BFCF;
 }
+
+body {
+    background-color: #EEE9DA;
+    padding-bottom: 70px;
+}        
 
 h1 {
     color: #6096B4;
     font-family: "Times New Roman","Georgia","serif";
-}
+}    
 
 h3 {
     color: #6096B4;
     font-family: Helvetica, Arial, sans-serif;
+}    
+
+td,th {
+    padding: 0 1rem;
+}    
+
+/*************************/
+/**** Class Elements *****/
+/*************************/
+.btn-primary {
+    color: #EEE9DA;
+    font-weight: bold;
+    background-color: #6096B4;
+    border-color: #6096B4;
+    width: 150px;
+}        
+
+.copyright {
+    color: #EEE9DA;
+    font-size: 0.7rem;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.btn-primary:hover{
+    background-color: #93BFCF;
+    border-color: #93BFCF;
+}
+
+.footer {
+    background-color: #6096B4;
+}    
+
+.footer-link {
+    color: #93BFCF;
+}    
+
+.footer-link:hover {
+    color: #EEE9DA;
+}    
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}                
+
+.profile-description {
+    flex-basis: 40%;
+}                
+
+.skill-name {
+    text-align: right;
+}        
+
+.skill-rating {
+    text-align: left;
+}        
+
+.navbar {
+    background-color: #6096B4;
+}
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand {
+    width: 50px;
+}
+.nav-item.active a {
+    color: #93BFCF;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-link {
+    color:#EEE9DA;
+}
+a.nav-link:hover {
+    color: #93BFCF;
 }
